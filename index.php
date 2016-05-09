@@ -16,6 +16,7 @@ if(strlen($_GET['product_code'])==6){
   $response['code'] = 200;
   $response['message'] = "File has been written!";
 }else{
+  //new fix branch
   $response['code'] = 401;
   $response['message'] = "Invalid string! The string should contain 6 digits";
 }
